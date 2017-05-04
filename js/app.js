@@ -74,9 +74,8 @@ for ( var i = 3; i > 0; i-- ) {
     }
 }
 
-
 var states = ['ny', 'ca', 'va'];
-for ( var i = 1; i < 4; i++ ) {
+for ( var i = 1; i <= 6; i++ ) {
     var guess = prompt ( 'guess a state I have lived in besides Oregon? two letter code' );
     console.log ( i );
 
@@ -93,6 +92,7 @@ for ( var i = 1; i < 4; i++ ) {
         if ( j === states.length - 1 ) {
        
             alert ( 'nope!' );
+            
         }
     }
 }
